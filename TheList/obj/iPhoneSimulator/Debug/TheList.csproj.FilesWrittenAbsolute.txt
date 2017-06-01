@@ -1,0 +1,9 @@
+/Users/blakemorgan/Projects/TheList/TheList/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/blakemorgan/Projects/TheList/TheList/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/blakemorgan/Projects/TheList/TheList/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_PartialAppManifest.items
+/Users/blakemorgan/Projects/TheList/TheList/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/blakemorgan/Projects/TheList/TheList/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/
+/Users/blakemorgan/Projects/TheList/TheList/bin/iPhoneSimulator/Debug/TheList.pdb
+/Users/blakemorgan/Projects/TheList/TheList/bin/iPhoneSimulator/Debug/TheList.exe
+/Users/blakemorgan/Projects/TheList/TheList/obj/iPhoneSimulator/Debug/TheList.exe
+/Users/blakemorgan/Projects/TheList/TheList/obj/iPhoneSimulator/Debug/TheList.pdb
