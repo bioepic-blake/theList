@@ -84,18 +84,17 @@ namespace TheList
 			//• Create, subscribe and react to an event
 
 
-			//public event Action FireEvent; //place into field
+			public event Action FireEvent; //place into field
 
-			//FireEvent(); // Set off the event in view did load or requierd method 
+			FireEvent(); // Set off the event in view did load or requierd method 
 
-			//FireEvent += ShowString; //event controle to call a method were showString is the method 
+			FireEvent += ShowString; //event controle to call a method were showString is the method 
 
-			//public void ShowString()// the method is called 
-			//{
-			//	_txt1.Text = "Hello World";
+			public void ShowString()// the method is called 
+			{
+				_txt1.Text = "Hello World";
 
-
-			//}
+			}
 
 
 			//==============================================================================
@@ -226,11 +225,10 @@ namespace TheList
 			//??? no idea jord?
 
 			//• Polymorphism
-			//??? is the ability to take an object and changing it into sevral difrent forms 
+			//??? is the ability to take an object and changing it into sevral difrent ways. this is closly linked with inheritance. 
+			//Polymorphism is when you can treat an object as a generic version of something, 
+			//but when you access it, the code determines which exact type it is and calls the associated code.
 
-
-
-			//----efeffd
 
 
 
