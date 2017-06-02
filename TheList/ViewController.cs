@@ -18,7 +18,7 @@ namespace TheList
 		}
 
 
-		//• Create a method that does something but doesn't return anything 
+		///• Create a method that does something but doesn't return anything 
 		private void labelm()
 		{
 			var rect = new CoreGraphics.CGRect();
@@ -26,10 +26,10 @@ namespace TheList
 			_label1.Text = "blake";
 			View.Add(_label1);
 		}
-		// this method creates a UIlabel but does not return anything
+		/// this method creates a UIlabel but does not return anything
 
-		//==========================================
-		//• Create a method that returns a string
+		///==========================================
+		///• Create a method that returns a string
 
 		private string StringMethod()
 		{
@@ -38,26 +38,26 @@ namespace TheList
 			return string1;
 
 		}
-		// a simpal method for returning a string, the stringis defined in the method but can be defined in a field;
+		/// a simpal method for returning a string, the stringis defined in the method but can be defined in a field;
 
-		//===========================================
-		//• Create method that returns a float
+		///===========================================
+		///• Create method that returns a float
 
 		private float FloatMethod1()
 		{
 			float float1 = 15f;
 			return float1;
 		}
-		//a simpal method for returning a float, the float is defined in the method but can be defined in a field;
+		///a simpal method for returning a float, the float is defined in the method but can be defined in a field;
 
-		//===========================================
-		//Write a new class
+		///===========================================
+		////Write a new class
 		public class class2
 		{
 			public int intProp2 { get; set; }
 		}
-		//===========================================
-		//• Create a method that returns a type of the class you've just created(class 3 )
+		///===========================================
+		///• Create a method that returns a type of the class you've just created(class 3 )
 		public class class3
 		{
 			public string stringProp { get; set; }
@@ -65,8 +65,8 @@ namespace TheList
 
 
 		}
-		//================================================
-		//• Create a new object from your custom class and use the method described in the previous step
+	////	//================================================
+		///• Create a new object from your custom class and use the method described in the previous step
 		public class class4
 		{
 			class3 classMethod1 = new class3()
@@ -74,30 +74,30 @@ namespace TheList
 				stringProp = "blake",
 				intProp = 5
 			};
-			//==============================================
-			//Create a method that takes an argument
+			///==============================================
+			///Create a method that takes an argument
 			public void methodArgument1(int x, int y)
 			{
 
 			}
-			// in this case the argument is (int x, int y)
+			/// in this case the argument is (int x, int y)
 
-			//=======================================
-			//• Create a method that takes an argument* and* at least one optional argument
+			///=======================================
+			///• Create a method that takes an argument* and* at least one optional argument
 			public void methodArgument2(int x, int y = 15)
 			{
 
 			}
 
-			// in this exsample the optinal argument is the int y = 15 were =15 is the optional argument, this can be overwriten if needed.
+			/// in this exsample the optinal argument is the int y = 15 were =15 is the optional argument, this can be overwriten if needed.
 
 			//=============================================================================
-			//• Create, subscribe and react to an event
+			///• Create, subscribe and react to an event
 
-			// this has been cometed out due to build errors that only apply because of the way i have listed the ansers to the question, 
-			//all code has been run and tested in an diffrent aplication!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+			/// this has been cometed out due to build errors that only apply because of the way i have listed the ansers to the question, 
+			///all code has been run and tested in an diffrent aplication!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-			//public event Action FireEvent; //place into field
+			///public event Action FireEvent; //place into field
 
 			//FireEvent(); // Set off the event in view did load or requierd method 
 
@@ -110,8 +110,8 @@ namespace TheList
 			//}
 
 
-			//==============================================================================
-			//• Create a button that does something when you click it
+			///==============================================================================
+			///• Create a button that does something when you click it
 
 			private UIButton _button1;
 
@@ -125,7 +125,7 @@ namespace TheList
 				_button1.Layer.BorderColor = UIColor.Green.CGColor;
 				_button1.Layer.CornerRadius = 15f;
 		//		View.Add(_button1);//this pice of code workes but only in the
-								   //view controller class i have placed it here for convenanse.
+								   ///view controller class i have placed it here for convenanse.
 
 				_button1.TouchUpInside += button1C;  
 
@@ -137,8 +137,8 @@ namespace TheList
 				int z;
 				z = x + y;
 			}
-			//=================================================================================
-			//• Create a list of types e.g. string, int, a custom class(in next section) etc.
+			///=================================================================================
+			///• Create a list of types e.g. string, int, a custom class(in next section) etc.
 			public void NewList()
 			{
 				List<int> list1 = new List<int>();
@@ -162,9 +162,9 @@ namespace TheList
 				};
 
 			}
-			//==========================================================================
-			//• Create a loop that iterates through a list and add certain elements (based on a criteria you decide)
-			//to a second list.
+			///==========================================================================
+			///• Create a loop that iterates through a list and add certain elements (based on a criteria you decide)
+			///to a second list.
 			public int _intLoop;
 
 			public void listLoop()
@@ -191,8 +191,8 @@ namespace TheList
 				}
 
 			}
-			//=======================================================================================
-			//• Create a string and add extra content to it every 10 seconds.
+			///=======================================================================================
+			///• Create a string and add extra content to it every 10 seconds.
 
 			public string string1;
 			public string string2;
@@ -209,7 +209,7 @@ namespace TheList
 				{
 					string1 += string2;
 					await Task.Delay(10000); // delay by 10 seconds,, another way around this problem 
-					//is to create a timer and program it to start, stop & stop when needed
+					///is to create a timer and program it to start, stop & stop when needed
 
 				}
 
