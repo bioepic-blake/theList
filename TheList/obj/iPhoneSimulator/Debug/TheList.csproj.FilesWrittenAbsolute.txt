@@ -11,3 +11,5 @@
 /Users/blakemorgan/theList/TheList/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/
 /Users/blakemorgan/theList/TheList/obj/iPhoneSimulator/Debug/TheList.exe
 /Users/blakemorgan/theList/TheList/obj/iPhoneSimulator/Debug/TheList.pdb
+/Users/blakemorgan/theList/TheList/bin/iPhoneSimulator/Debug/TheList.pdb
+/Users/blakemorgan/theList/TheList/bin/iPhoneSimulator/Debug/TheList.exe
