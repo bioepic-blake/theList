@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using CoreGraphics;
 using UIKit;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace TheList
 {
@@ -83,13 +84,26 @@ namespace TheList
 			//• Create, subscribe and react to an event
 
 
+			//public event Action FireEvent; //place into field
+
+			//FireEvent(); // Set off the event in view did load or requierd method 
+
+			//FireEvent += ShowString; //event controle to call a method were showString is the method 
+
+			//public void ShowString()// the method is called 
+			//{
+			//	_txt1.Text = "Hello World";
+
+
+			//}
+
 
 			//==============================================================================
 			//• Create a button that does something when you click it
 
 			private UIButton _button1;
 
-		//	_button1.TouchUpInside += buttonC;
+			//	_button1.TouchUpInside += buttonC;
 
 			private void button1()
 			{
@@ -98,8 +112,8 @@ namespace TheList
 				_button1.Layer.BorderWidth = 3f;
 				_button1.Layer.BorderColor = UIColor.Green.CGColor;
 				_button1.Layer.CornerRadius = 15f;
-	//			View.Add(_button1);//this pice of code workes but only in the
-								   //view controller class i have placed it here for convenanse.
+				//			View.Add(_button1);//this pice of code workes but only in the
+				//view controller class i have placed it here for convenanse.
 
 			}
 			private void button1C(object sender, EventArgs e)
@@ -163,6 +177,74 @@ namespace TheList
 				}
 
 			}
+			//=======================================================================================
+			//• Create a string and add extra content to it every 10 seconds.
+
+			public string string1;
+			public string string2;
+
+			public async Task string1M()
+			{
+
+
+				string1 = " hello ";
+				string2 = " blake ";
+
+
+				for (int i = 0; i < 20; i++)
+				{
+					string1 += string2;
+					await Task.Delay(10000);
+
+				}
+
+			}
+			//======================================================================
+
+			//			• What does private mean?
+			//Private means that only the class its defined in or a class that dirves from that class can asses the variable
+
+			//• What does public mean?
+			//Public means that the veriabl/method is open and can be called upon/worked with from an outside class
+
+			//• What does static mean?
+			//Static = fixed, it can only contain static members, cannot be instantiated
+
+			//• The difference between a property and a field.
+			//A field is a variable declared directly in the class normally private.
+			//A property is a way to access the field, the get set property will alaw access to the variable/field without directly working with it providing a level of abstraction 
+
+
+			//• The purpose of a public get and a private set in a property.
+			//Private set’ers law you to create read-only / protected propertys.
+
+
+
+
+
+			//• The purpose of interfaces.
+			//??? no idea jord?
+
+			//• Polymorphism
+			//??? is the ability to take an object and changing it into sevral difrent forms 
+
+
+
+			//----efeffd
+
+
+
+			//• Overloading
+			//Overriding is where there may be methods of the same name but they must take in different arguments, e.g.
+			//method1(int x, int y)
+			//method1(int x, string y)
+			//method1(int x, int y, string z)
+			//Each method is called the same but take different arguments
+
+
+			//==================== score is 0/18
+
+
 		}
 
 	}
