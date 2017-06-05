@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="TheList/ViewController.cs">
     <Files>
       <File FileName="TheList/AppDelegate.cs" Line="27" Column="38" />
-      <File FileName="TheList/ViewController.cs" Line="11" Column="3" />
+      <File FileName="TheList/ViewController.cs" Line="30" Column="65" />
+      <File FileName="TheList/Main.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -10,6 +11,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TheList PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CA8C4211-A6FD-4A58-99F9-7CDCD50A0A76" />
+  <MonoDevelop.Ide.ItemProperties.TheList PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4BDA6859-2046-4B02-8EAB-50F7111FD0C4" />
   <MultiItemStartupConfigurations />
 </Properties>
